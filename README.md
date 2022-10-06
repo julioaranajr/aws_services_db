@@ -7,9 +7,9 @@
 - [ ] Make changes
 - [ ] Make a Pull Request
 
-# 1.-Repository Fork
+## 1.-Repository Fork
 
-> **IMPORTAN:** The first step is to "Fork" the repository.
+  **IMPORTAN:** The first step is to "Fork" the repository.
 
 ```
 A fork is a copy of a repository that you manage. Forks let you make changes to a 
@@ -28,6 +28,7 @@ your fork with the upstream repository.
 ## 2.- Clone the repository
 
 After having the repository in our account, select the repository address "SSH or HTTP" and clone:
+
 ``
 $ git clone https://github.com/User/RepoName.git
 ``
