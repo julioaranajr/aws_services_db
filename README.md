@@ -1,46 +1,73 @@
-# AWS SERVICES DATABASE
-```
-A complete list of products and services 
-offered by Amazon Web Services, 
-with the latest additions.
-```
-![AWS](https://github.com/julioaranajr/aws_services_db/blob/main/aws.png)
-# What is AWS?
+# How to collaborate on this project: 
 
-```
-Amazon Web Services (AWS) is the largest cloud computing platform, offering 200+ 
-universally featured resources, from infrastructure to machine learning. These 
-combinable systems provide maximum usability and are designed expressly for the 
-optimization of your application’s performance through content delivery features, 
-data storage, and more.
+- [ ] Repository Fork
+- [ ] Clone the repository
+- [ ] Update the master branch
+- [ ] Create a branch
+- [ ] Make changes
+- [ ] Make a Pull Request
 
-With AWS, you pay only for the exact amount of assistance you require, resulting in 
-lower capital commitment and enhanced time-to-value without compromising productivity.
+# **Repository Fork**
 
-After we highlight the top 25 AWS services, we’ve included a list of all AWS services. 
-You can make use of the table of contents to navigate around.
+> **IMPORTAN:** The first step is to "Fork" the repository.
 
-Amazon Web Services offers hundreds of services ranging from compute and 
-storage services to various analytics and security applications.
-```
+A fork is a copy of a repository that you manage. Forks let you make changes to a 
+project without affecting the original repository. You can fetch updates from or 
+submit changes to the original repository with pull requests.
 
-# Why use AWS services?
-``` 
-Amazon, the preeminent cloud vendor, broke new ground by establishing the first cloud 
-computing service, Amazon EC2, in 2008. AWS offers more solutions and features than any 
-other provider and has free tiers with access to the AWS Console, where users can centrally 
-control their ministrations.
+Forking a repository is similar to copying a repository, with two major differences:
 
-Designed around ease-of-use for various skill sets, AWS is tailored for those unaccustomed to 
-software development utilities. Web applications can be deployed in minutes with AWS facilities, 
-without provisioning servers or writing additional code.
+You can use a pull request to suggest changes from your user-owned fork to the original 
+repository in its GitHub instance, also known as the upstream repository.
+You can bring changes from the upstream repository to your local fork by synchronizing 
+your fork with the upstream repository.
 
-Amazon hosts global data centers with a vast network ensuring reduced latency worldwide. 
-AWS’ replication capacity allows you to duplicate services regionally, helping you recover 
-quickly and avoid costly downtime.
+## Clone the repository
 
-The number of AWS offerings is constantly growing, and as of September 2022, 
-they include as many as 509 individual products and services.
-```
+After having the repository in our account, select the repository address "SSH or HTTP" and clone:
+``
+$ git clone https://github.com/User/RepoName.git
+``
 
-## Full list of AWS products, services, and tools.
+Inside the folder it generates, check the repository URL:
+``
+$ git remote -v
+``
+
+## Before making modifications add the URL of the original repository of the project:
+``
+$ git remote add upstream https://github.com/User/RepoOriginal(Forked)
+``
+### Check
+``
+$ git remote -v
+``
+### Update the Master branch
+Before starting work, get the latest changes from the Original Repo:
+``
+$ git pull -r upstream master
+``
+### Create a Branch
+To create a branch use the git "checkout" option:
+``
+$ git checkout -b feature-branch-name
+``
+### Make changes
+Make all the changes you want to make to the project.
+
+
+### Add the files and commit
+
+After committing, push to our repository indicating the branch we have created.
+``
+$ git push origin feature-branch-name
+``
+
+### Make a Pull Request
+Click on "Compare & Pull Request"
+
+Write Pull Request changes.
+
+If everything is ok, send with the "Send Pull Request" button.
+
+Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
