@@ -54,7 +54,7 @@ Before starting work, get the latest changes from the Original Repo:
 
 ```sh
 $ git pull -r upstream master
-``
+```
 
 ### Create a Branch
 To create a branch use the git "checkout" option:
@@ -72,9 +72,9 @@ $ git checkout -b feature-branch-name
 
 After committing, push to our repository indicating the branch we have created.
 
-``sh
+```sh
 $ git push origin feature-branch-name
-``
+```
 
 ### Make a Pull Request
 
@@ -83,6 +83,4 @@ Click on "Compare & Pull Request"
 
 * Write Pull Request changes.
 
->If everything is ok, send with the "Send Pull Request" button.
-
->Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
+> If everything is ok, send with the "Send Pull Request" button. Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
