@@ -1,11 +1,11 @@
 # AWS SERVICES DATABASE
-```sh
+```
 A complete list of products and services offered by Amazon Web Services, 
 with the latest additions.
 ```
 # What is AWS?
 
-```sh
+```
 Amazon Web Services (AWS) is the largest cloud computing platform, 
 offering 200+ universally featured resources, from infrastructure to machine learning. 
 These combinable systems provide maximum usability and are designed expressly for the 
@@ -23,7 +23,7 @@ storage services to various analytics and security applications.
 ```
 
 # Why use AWS services?
-```sh 
+``` 
 Amazon, the preeminent cloud vendor, broke new ground by establishing the first cloud computing 
 service, Amazon EC2, in 2008. AWS offers more solutions and features than any other provider and 
 has free tiers with access to the AWS Console, where users can centrally control their ministrations.
