@@ -1,7 +1,5 @@
 # AWS SERVICES DATABASE
 
-A complete list of products and services offered by Amazon Web Services, with the latest additions.
-
 
 ![AWS](https://github.com/julioaranajr/aws_services_db/blob/main/aws.png)
 
