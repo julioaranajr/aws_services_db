@@ -6,9 +6,9 @@ with the latest additions.
 # What is AWS?
 
 ```
-Amazon Web Services (AWS) is the largest cloud computing platform, 
-offering 200+ universally featured resources, from infrastructure to machine learning. 
-These combinable systems provide maximum usability and are designed expressly for the 
+Amazon Web Services (AWS) is the largest cloud computing platform, offering 200+ 
+universally featured resources, from infrastructure to machine learning. These 
+combinable systems provide maximum usability and are designed expressly for the 
 optimization of your application’s performance through content delivery features, 
 data storage, and more.
 
@@ -24,16 +24,18 @@ storage services to various analytics and security applications.
 
 # Why use AWS services?
 ``` 
-Amazon, the preeminent cloud vendor, broke new ground by establishing the first cloud computing 
-service, Amazon EC2, in 2008. AWS offers more solutions and features than any other provider and 
-has free tiers with access to the AWS Console, where users can centrally control their ministrations.
+Amazon, the preeminent cloud vendor, broke new ground by establishing the first cloud 
+computing service, Amazon EC2, in 2008. AWS offers more solutions and features than any 
+other provider and has free tiers with access to the AWS Console, where users can centrally 
+control their ministrations.
 
-Designed around ease-of-use for various skill sets, AWS is tailored for those unaccustomed to software 
-development utilities. Web applications can be deployed in minutes with AWS facilities, without 
-provisioning servers or writing additional code.
+Designed around ease-of-use for various skill sets, AWS is tailored for those unaccustomed to 
+software development utilities. Web applications can be deployed in minutes with AWS facilities, 
+without provisioning servers or writing additional code.
 
-Amazon hosts global data centers with a vast network ensuring reduced latency worldwide. AWS’ replication 
-capacity allows you to duplicate services regionally, helping you recover quickly and avoid costly downtime.
+Amazon hosts global data centers with a vast network ensuring reduced latency worldwide. 
+AWS’ replication capacity allows you to duplicate services regionally, helping you recover 
+quickly and avoid costly downtime.
 
 The number of AWS offerings is constantly growing, and as of September 2022, 
 they include as many as 509 individual products and services.
