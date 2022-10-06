@@ -29,24 +29,24 @@ your fork with the upstream repository.
 
 After having the repository in our account, select the repository address "SSH or HTTP" and clone:
 
-``
+``sh
 $ git clone https://github.com/User/RepoName.git
 ``
 
 Inside the folder it generates, check the repository URL:
-``
+``sh
 $ git remote -v
 ``
 
 ### Before making modifications add the URL of the original repository of the project:
 
-``
+``sh
 $ git remote add upstream https://github.com/User/RepoOriginal(Forked)
 ``
 
 ### Check
 
-``
+``sh
 $ git remote -v
 ``
 
@@ -54,14 +54,14 @@ $ git remote -v
 ## 3.- Update the Master branch
 Before starting work, get the latest changes from the Original Repo:
 
-``
+``sh
 $ git pull -r upstream master
 ``
 
 ### Create a Branch
 To create a branch use the git "checkout" option:
 
-``
+``sh
 $ git checkout -b feature-branch-name
 ``
 
@@ -74,7 +74,7 @@ $ git checkout -b feature-branch-name
 
 After committing, push to our repository indicating the branch we have created.
 
-``
+``sh
 $ git push origin feature-branch-name
 ``
 
@@ -82,10 +82,9 @@ $ git push origin feature-branch-name
 
 Click on "Compare & Pull Request"
 
-```
+
 Write Pull Request changes.
 
 If everything is ok, send with the "Send Pull Request" button.
 
 Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
-```
