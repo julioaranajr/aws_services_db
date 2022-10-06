@@ -7,10 +7,11 @@
 - [ ] Make changes
 - [ ] Make a Pull Request
 
-# **Repository Fork**
+# 1.-Repository Fork
 
 > **IMPORTAN:** The first step is to "Fork" the repository.
 
+```
 A fork is a copy of a repository that you manage. Forks let you make changes to a 
 project without affecting the original repository. You can fetch updates from or 
 submit changes to the original repository with pull requests.
@@ -21,8 +22,10 @@ You can use a pull request to suggest changes from your user-owned fork to the o
 repository in its GitHub instance, also known as the upstream repository.
 You can bring changes from the upstream repository to your local fork by synchronizing 
 your fork with the upstream repository.
+```
 
-## Clone the repository
+
+## 2.- Clone the repository
 
 After having the repository in our account, select the repository address "SSH or HTTP" and clone:
 ``
@@ -34,40 +37,54 @@ Inside the folder it generates, check the repository URL:
 $ git remote -v
 ``
 
-## Before making modifications add the URL of the original repository of the project:
+### Before making modifications add the URL of the original repository of the project:
+
 ``
 $ git remote add upstream https://github.com/User/RepoOriginal(Forked)
 ``
+
 ### Check
+
 ``
 $ git remote -v
 ``
-### Update the Master branch
+
+
+## 3.- Update the Master branch
 Before starting work, get the latest changes from the Original Repo:
+
 ``
 $ git pull -r upstream master
 ``
+
 ### Create a Branch
 To create a branch use the git "checkout" option:
+
 ``
 $ git checkout -b feature-branch-name
 ``
-### Make changes
-Make all the changes you want to make to the project.
 
+
+## 4.- Make changes
+
+### Make all the changes you want to make to the project.
 
 ### Add the files and commit
 
 After committing, push to our repository indicating the branch we have created.
+
 ``
 $ git push origin feature-branch-name
 ``
 
 ### Make a Pull Request
+
 Click on "Compare & Pull Request"
 
+```
 Write Pull Request changes.
 
 If everything is ok, send with the "Send Pull Request" button.
 
 Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
+```
