@@ -27,7 +27,7 @@ Forking a repository is similar to copying a repository, with two major differen
 After having the repository in our account, select the repository address "SSH or HTTP" and clone:
 
 ```sh
-$ git clone https://github.com/User/RepoName.git
+$ https://github.com/julioaranajr/aws_services_db.git
 ```
 
 Inside the folder it generates, check the repository URL:
@@ -39,7 +39,7 @@ $ git remote -v
 ### Before making modifications add the URL of the original repository of the project:
 
 ```sh
-$ git remote add upstream https://github.com/User/RepoOriginal(Forked)
+$ git remote add upstream https://github.com/julioaranajr/aws_services_db.git(Forked)
 ```
 
 ### Check
