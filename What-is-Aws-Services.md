@@ -1,8 +1,3 @@
-# AWS SERVICES DATABASE
-
-
-![AWS](https://github.com/julioaranajr/aws_services_db/blob/main/aws.png)
-
 # What is Amazon Web Services (AWS)
 
 * Amazon Web Services (AWS) is the largest cloud computing platform, offering more than 200 universal resources, from infrastructure to machine learning. These
