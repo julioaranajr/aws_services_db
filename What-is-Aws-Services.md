@@ -18,4 +18,4 @@ without provisioning servers or writing additional code.
 * Amazon hosts global data centers with a vast network that ensures low latency around the world. AWS replication capabilities allow you to replicate services regionally, helping you recover
 quickly and avoid costly downtime. The number of AWS offerings is constantly growing, and as of September 2022, they include up to 509 individual products and services.
 
-### Please Feel free to Cto collaborate to Keep update the Complete list of AWS products, services, and tools.
+Please feel free to Cto collaborate to Keep update the Complete list of AWS products, services, and tools.
