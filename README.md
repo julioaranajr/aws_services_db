@@ -83,4 +83,4 @@ Click on "Compare & Pull Request"
 
 * Write Pull Request changes.
 
-> If everything is ok, send with the "Send Pull Request" button. Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
+If everything is ok, send with the "Send Pull Request" button. Wait for the repository duel to review it, accept it, and merge it into the appropriate branch.
